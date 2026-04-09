@@ -1,1 +1,49 @@
+/* Background color */
+body {
+    background-color: #f2f2f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Centered header */
+header {
+    text-align: center;
+    background-color: #4a4a8a;
+    color: white;
+    padding: 20px;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 15px;
+}
+
+/* Interests section with different background */
+section {
+    padding: 20px;
+}
+
+section:nth-of-type(2) {
+    background-color: #e8e8ff;
+}
+
+/* Styled link */
+a {
+    color: #4a4a8a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styled footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
